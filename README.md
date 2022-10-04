@@ -46,7 +46,7 @@ Winning messages and use of `Hit!` and `Stay`
 
 ## Getting Started
 
-[Live Site]
+[Live Site](https://pages.git.generalassemb.ly/anhad96/Project1-Blackjack)
 
 WireFrame:
 ![My Image](/assets/images/WireFrame-Project-1.jpg)
