@@ -62,7 +62,7 @@ WireFrame:
 - Add a betting feature along with chips as a visual
    - You can also at the start of the game decide the pot size
 
-## Pseudo Code
+
 
 
 

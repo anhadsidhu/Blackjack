@@ -206,8 +206,12 @@ function stayCards(){
 };
 
 function removeOldHand(){
-    playerCardsHand.remove()
-    dealerCardsHand.remove()
+   while(dealerCardsHand.firstChild){
+    dealerCardsHand.removeChild(dealerCardsHand.firstChild)
+   }
+   while(playerCardsHand.firstChild){
+    playerCardsHand.removeChild(playerCardsHand.firstChild)
+   }
 }
 
 function scoresOfPlayers(hand){
