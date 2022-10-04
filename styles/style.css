@@ -3,7 +3,7 @@ html{
   width: 100%;
   justify-content:center;
   background-color: white;
-  background: url(/assets/images/Spades-NewGame-background.jpeg);
+  background: url(../assets/images/Spades-NewGame-background.jpeg);
  background-position: 113% ;
 
 }
