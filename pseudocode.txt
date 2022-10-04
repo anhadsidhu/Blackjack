@@ -1,0 +1,41 @@
+- When game loads:
+    - Initialize all state variables by calling init()
+    - Update the display by calling render()
+    - Make sure the hit, stay, and restart buttons don't show
+
+- When Let's start is pressed:
+  - The Let's Start button goes away and the other buttons appear
+  - Also the start text goes away
+  - Create a card class that has your values and suits
+
+  - Create and store 52 cards in a variable called Deck
+    - suits: clubs, hearts, diamonds, spades
+    - values: A, 2 - 10, J, Q, K
+    - create a card object with suits and values
+
+    - Make a shuffle function by using the deck that randomly picks a card from the deck
+      - Go through the deck and create a random index
+      - Use the random index on the deck to shuffle it
+
+    - Create a deal function that:
+      - Returns number cards picked at random from the deck
+      - Take number of cards from the top of the deck
+
+  - Deal 2 cards to the player and dealer
+  - Make the the two cards dealt appear on the DOM, create functions to do that
+  - Create a Hit function that adds a card to the player and another function to add that to the DOM by appending it to the players div
+  - Create a Stay function that adds a card to the dealer and another function to add that to the DOM by appending it to the dealers div
+  - Create a function for score that compares the values to the points object I setup
+  - Create a function that has the score of the dealer and player by using the above function
+
+  - Make a function that gets the score and compares for the game win logic
+    - If they are both 21 then tie
+    - If one player has a higher score than the other but below 21 they win and game ends
+    - If any player is above 21 the other player wins game ends
+
+- Restart the game by Initializing the scores, cards, and text-area
+
+- Render function calls back printing out of the dealer and player cards
+  - Also prints the scores to the DOM and checks the game win logic
+
+

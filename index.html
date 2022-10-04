@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="styles/cardstarter.css" type = text/css>
+    <link rel="stylesheet" href="styles/style.css" type = text/css>
+</head>
+<body>
+    <div id = 'container'>
+        <div id = 'game'>
+            <div class = 'game-name'>
+                <h1>Blackjack</h1>
+            </div>
+
+            <p id = 'hidden'>Ready to start the game?</p>
+            <div id = 'text-area'></div>
+
+            <button id = 'start-button'>Let's Start</button>
+
+            <div id = 'players-action'>
+                <div id = 'player'>
+                    <h3 id = 'player-cards-text'>Player Cards</h3>
+                    <span>Score:</span><div class = "score" id = 'player-score'> 0</div>
+                    <div id = 'game-buttons'>
+                        <button id = 'hit-button'>Hit!</button>
+                        <button id = 'stay-button'>Stay</button>
+                    </div>
+                    <div id = 'player-cards'></div>
+                </div>
+
+                <button id = 'restart-button'>Restart</button>
+
+                <div id = 'dealer'>
+                    <h3 id = 'dealer-cards-text'>Dealer Cards</h3>
+                    <span>Score:</span><div class="score" id = 'dealer-score'> 0</div>
+                    <div id = 'dealer-cards'></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+   <script src = 'scripts/main.js'></script>
+</body>
+</html>
